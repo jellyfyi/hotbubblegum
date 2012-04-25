@@ -1,0 +1,74 @@
+(author [Anthony Hawley - Tamedo.com])
+
+(!default
+    (caret [rgba(1.000000, 1.000000, 1.000000, 0.800000)])
+    (selection [rgba(0.000000, 0.200000, 0.400000, 1.000000)])
+    (line-highlight [rgba(0.072470, 0.108171, 0.179348, 1.000000)])
+    (invisibles [rgba(1.000000, 1.000000, 1.000000, 0.250980)])
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)])
+    (background [rgba(0.014550, 0.068539, 0.069357, 1.000000)]))
+
+(apply comment
+    Comment
+    (color [rgba(0.400000, 0.400000, 0.400000, 1.000000)]))
+
+(apply constant
+    Constant
+    (color [rgba(0.847059, 0.980392, 0.235294, 1.000000)]))
+
+(apply entity
+    Entity
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)]))
+
+(apply keyword
+    Keyword
+    (color [rgba(1.000000, 0.600000, 0.000000, 1.000000)]))
+
+(apply storage
+    Storage
+    (color [rgba(1.000000, 0.000000, 0.510500, 1.000000)]))
+
+(apply [string, meta.verbatim]
+    String
+    (color [rgba(0.678477, 0.800000, 0.000000, 1.000000)]))
+
+(apply support
+    Support
+    (color [rgba(0.000000, 0.600000, 0.800000, 1.000000)]))
+
+(apply variable
+    Variable
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)]))
+
+(apply invalid.deprecated
+    [Invalid – Deprecated]
+    (color [rgba(1.000000, 0.021699, 0.000000, 1.000000)]))
+
+(apply invalid.illegalentity.other.attribute-name
+    [Invalid – Illegal]
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)])
+    (background [rgba(1.000000, 0.010851, 0.000000, 1.000000)]))
+
+(apply entity.other.inherited-class
+    Superclass
+    (color [rgba(1.000000, 0.549490, 0.000000, 1.000000)]))
+
+(apply [string constant.other.placeholder]
+    [String interpolation]
+    (color [rgba(0.959698, 0.000186, 0.504284, 1.000000)]))
+
+(apply meta.function-call.py
+    meta.function-call.py
+    (color [rgba(0.745098, 0.803922, 0.901961, 1.000000)]))
+
+(apply entity.name.section
+    entity.name.section
+    (color [rgba(1.000000, 1.000000, 1.000000, 1.000000)]))
+
+(apply entity.other.attribute-name
+    [Tag attribute]
+    (color [rgba(0.000000, 0.600000, 0.800000, 1.000000)]))
+
+(apply [entity.name.tag, entity.other.attribute-name.class.css, entity.other.attribute-name.id.css]
+    [Tag Name]
+    (color [rgba(1.000000, 0.000000, 0.495748, 1.000000)]))
